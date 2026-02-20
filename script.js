@@ -13,7 +13,7 @@ function timeSince(str) { const s = (Date.now() - new Date(str)) / 1000; if (s <
 // ═══════════════════════════════════════
 // DISCORD CONFIG
 // ═══════════════════════════════════════
-const HARDCODED_DC_ID = ''; // Buraya Discord ID'ni girersen otomatik açılır
+const HARDCODED_DC_ID = '1008868929134919680'; // Buraya Discord ID'ni girersen otomatik açılır
 
 function getDiscordId() { return HARDCODED_DC_ID || localStorage.getItem('dc_uid') || ''; }
 function setDiscordId(id) { localStorage.setItem('dc_uid', id); }
